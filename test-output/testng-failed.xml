@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My test suite]">
+  <listeners>
+    <listener class-name="com.sc.springmvc.api.ApiTestReport"/>
+  </listeners>
+  <test thread-count="5" name="单元测试(failed)">
+    <classes>
+      <class name="com.sc.springmvc.api.ApiTest">
+        <methods>
+          <include name="TestCase" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.sc.springmvc.api.ApiTest -->
+    </classes>
+  </test> <!-- 单元测试(failed) -->
+</suite> <!-- Failed suite [My test suite] -->
